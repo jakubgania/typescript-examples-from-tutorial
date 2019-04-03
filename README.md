@@ -1,3 +1,3 @@
 # typescript-examples-from-tutorial
 
-Example form [TypeScript](https://www.tutorialspoint.com/typescript/typescript_interfaces.htm) tutorial
+Examples form [TypeScript](https://www.tutorialspoint.com/typescript/index.htm) tutorial in one file.
