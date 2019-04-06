@@ -1,4 +1,52 @@
 // basic syntax ===============================================================
+console.log('==== basic syntax section start ====')
+
+var messageHello:string = "Hello World - 14:22 06/04/2019"
+var messageCompileProgram = "compile program => tsc example.ts"
+var messageExecuteProgram = "execute program => node example.js"
+
+console.log(messageHello)
+console.log(messageCompileProgram)
+console.log(messageExecuteProgram)
+
+var compilerFlagHelp = "--help => Displays the help manual"
+var compilerFlagModule = "--module => Load external modules"
+var compilerFlagTarget = "--target => Set the target ECMA version"
+var compilerFlagDeclaration = "--declaration => Gernerates an additional .d.ts file"
+var compilerFlagRemoveComments = "--removeComments => Removes all comments from the output file"
+var compilerFlagOut = "--out => Compile multiple files into a single output file"
+var compilerFlagSourcemap = "--sourcemap => Generate a sourcemap (.map) files"
+var compilerFlagModuleNoImplicitAny = "-- module noImplicitAny => Disallows the compiler from infering the any type"
+var compilerFlagWatch = "--watch => Watch for file changes and recompile them on the fly"
+
+console.log(compilerFlagHelp)
+console.log(compilerFlagModule)
+console.log(compilerFlagTarget)
+console.log(compilerFlagDeclaration)
+console.log(compilerFlagRemoveComments)
+console.log(compilerFlagOut)
+console.log(compilerFlagSourcemap)
+console.log(compilerFlagModuleNoImplicitAny)
+console.log(compilerFlagWatch)
+
+var firstName:string = "Kuba"
+var example_name = 'example_name'
+var example1 = 'example1'
+var exampleUndefined:string
+var exampleValue = "example string"
+var example
+var exampleNumber:number = 18
+
+class Greeting {
+    greet():void {
+        console.log('Hello World from Greeting class')
+    }
+}
+
+var greetingObject = new Greeting();
+greetingObject.greet();
+
+console.log('==== basic syntax section end ====')
 // types ======================================================================
 // variables ==================================================================
 // operators ==================================================================
@@ -16,40 +64,6 @@
 // namespaces =================================================================
 // modules ====================================================================
 // ambients ===================================================================
-
-var firstName:string = "Kubaa"
-var message:string = "example"
-
-var exampleName:string = 'exampleName'
-var example_name = 'example_name'
-var example1 = 'example1'
-
-var exampleUndefined:string
-var exampleValue = "example string"
-var example
-
-var exampleNumber:number = 18
-
-// this is signle line comment
-
-/*
-    this is a
-    multi-line comment
-*/
-
-console.log(firstName + ' - ' + message + ' - ' + exampleNumber + ' - ' + 'example text')
-
-console.log(exampleName + ' - ' + example_name + ' - ' + example1)
-
-class FirstClass {
-    greet():void {
-        console.log('Hello from FirstClass')
-    }
-}
-
-var firstClassObject = new FirstClass();
-
-firstClassObject.greet();
 
 // ============================================================================
 
